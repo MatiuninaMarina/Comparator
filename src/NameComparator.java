@@ -9,8 +9,8 @@ public class NameComparator implements Comparator<Person> {
 
     @Override
     public int compare(Person o1, Person o2) {
-        int length1 = o1.getSurname().split(" ").length;
-        int length2 = o2.getSurname().split(" ").length;
+        int length1 = o1.getSurname().split(" |-").length;
+        int length2 = o2.getSurname().split(" |-").length;
         boolean longSurnames = length1 >= maxWords && length2 >= maxWords;
         if (length2 == length1) {
             if (o1.getAge() > o2.getAge()) {

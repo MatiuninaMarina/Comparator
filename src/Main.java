@@ -6,9 +6,9 @@ public class Main {
         Person person2 = new Person("Vika", "Litvinenko", 9);
         Person person = new Person("Zhenya", "Voronina", 15);
         Person person1 = new Person("Alisa", "Avdeeva Aprelkina", 5);
-        Person person3= new Person("Marina", "Voronina Sokolova Matyunina", 17);
-        Person person4 = new Person("Nadezhda", "Vihanova Ivanova Petrova Seleznyava", 18);
-        Person person5 = new Person("Vera", "Vihanova Ivanova Petrova Seleznyava Strelcova", 4);
+        Person person3= new Person("Marina", "Voronina-Sokolova-Matyunina", 17);
+        Person person4 = new Person("Nadezhda", "Vihanova-Ivanova-Petrova-Seleznyova", 18);
+        Person person5 = new Person("Vera", "Denisov Ivanova Petrova Seleznyova Strelcova", 4);
         ArrayList<Person> listOfPeople = new ArrayList<>();
         listOfPeople.add(person3);
         listOfPeople.add(person4);
